@@ -1,0 +1,54 @@
+
+section span
+{
+  background-color: var(--second-color);
+}
+section .icon i, h2{
+  color: var(--second-color);
+}
+section .images i{
+  font-size: 90px;
+  color: white;
+  position: absolute;
+  z-index: 9;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+section .layer{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(26, 188, 156, 0.8);
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s;
+}
+section .layer:hover{
+  opacity: 1;
+}
+body{
+  position: relative;
+}
+.mainLayer{
+  top: 0;
+  width: 100%;
+  height: calc(100% + 284px);
+  background-color: rgba(41, 108, 175, 0.3);
+  z-index: 10;
+}
+.mainLayer .image{
+  width: 30%;
+  height: 30%;
+  background-color: red;
+  background-image: url("../assets/Img/port2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+img{
+  max-width: 100%;
+}

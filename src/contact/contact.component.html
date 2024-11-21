@@ -1,0 +1,27 @@
+<section>
+  <h2 class="fs-1 fw-bold text-uppercase mt-5 text-center">Contact component</h2>
+  <div class="icon d-flex justify-content-center align-items-center my-3">
+    <span></span>
+    <i class="fa-solid fa-star"></i>
+    <span></span>
+  </div>
+  <div class="container w-50 mt-5">
+    <div class="input1 my-3">
+      <p #labelName class="labelName">userName :</p>
+      <input (input)="apperingText('labelName')" class="w-100 border-bottom border-0 py-2 px-2 rounded-3" type="text" name="userName" id="userName" placeholder="userName">
+    </div>
+    <div class="input2 my-3">
+      <p #labelAge class="labelAge">usesrAge :</p>
+      <input (input)="apperingText('labelAge')" class="w-100 border-bottom border-0 py-2 px-2 rounded-3" type="number" name="userAge" id="userAge" placeholder="userAge">
+    </div>
+    <div class="input3 my-3">
+      <p #labelEmail class="labelEmail">userEmail :</p>
+      <input (input)="apperingText('labelEmail')" class="w-100 border-bottom border-0 py-2 rounded-3 px-2 " type="email" name="userEmail" id="userEmail" placeholder="UserEmail">
+    </div>
+    <div class="input4 my-3">
+      <p #labelPass class="labelPass">userPassword :</p>
+      <input (input)="apperingText('labelPass')" class="w-100 border-bottom border-0 py-2 px-2 rounded-3" type="password" name="userPass" id="userPass" placeholder="userPassword">
+    </div>
+    <button class="btn text-white mt-3 px-3 py-2">send Message</button>
+  </div>
+</section>

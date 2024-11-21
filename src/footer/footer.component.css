@@ -1,0 +1,11 @@
+.firstFooter{
+  background-color: var(--second-color);
+}
+.secondFooter{
+  background-color: #1a252f;
+}
+section{
+position: relative;
+width: 100%;
+bottom: 0;
+}

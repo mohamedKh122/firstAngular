@@ -1,0 +1,13 @@
+.navbar{
+  background-color: var(--second-color);
+}
+.navbar a{
+  cursor: pointer;
+}
+.activeLink{
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 5px;
+  /* padding: 5px; */
+}
+
